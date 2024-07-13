@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #aad5f2;
+  color: #333;
+  font-size: 14px; /* Mengatur ukuran font global */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px; /* Mengatur ukuran font judul */
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-box,
+.result-box {
+  width: 48%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fafafa;
+  box-sizing: border-box; /* Menjaga padding dalam perhitungan lebar */
+}
+
+.result-box {
+  max-height: 500px; /* Menetapkan tinggi maksimum untuk kotak hasil */
+  overflow-y: auto; /* Menambahkan scroll jika konten terlalu banyak */
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: calc(100% - 22px);
+  font-size: 14px; /* Ukuran font untuk input */
+}
+
+input[type="submit"],
+input[type="reset"] {
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px; /* Ukuran font untuk tombol */
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #218838;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ccc;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  font-size: 14px; /* Ukuran font untuk tabel */
+}
